@@ -25,8 +25,16 @@ app.config(['$stateProvider',
                 url: '/',
                 templateUrl: './views/home.html',
                 data: {
-                    pageTitle: 'Calapalooza Roadmap | Sponsored by Innovative Design'
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('hobbyvcareer', {
+                url: '/1',
+                templateUrl: './views/hobbyvcareer.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
                 }
             });
+
     }
 ]);

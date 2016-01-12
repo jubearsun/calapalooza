@@ -504,9 +504,28 @@ body {
     .home-page .content-wrapper .title {
       font-size: 75px;
       line-height: 121px; }
+      @media (max-width: 820px) {
+        .home-page .content-wrapper .title {
+          font-size: 64px;
+          line-height: 102px; } }
+      @media (max-width: 670px) {
+        .home-page .content-wrapper .title {
+          line-height: 64px;
+          margin-bottom: 15px; } }
+      @media (max-width: 320px) {
+        .home-page .content-wrapper .title {
+          font-size: 48px;
+          margin-bottom: 0px; } }
     .home-page .content-wrapper .subtitle {
       font-size: 36px;
       line-height: 58px; }
+      @media (max-width: 820px) {
+        .home-page .content-wrapper .subtitle {
+          font-size: 24px;
+          line-height: 38px; } }
+      @media (max-width: 320px) {
+        .home-page .content-wrapper .subtitle {
+          font-size: 18px; } }
     .home-page .content-wrapper .button-wrapper {
       width: 100%; }
       .home-page .content-wrapper .button-wrapper .start {
@@ -526,9 +545,15 @@ body {
         .home-page .content-wrapper .button-wrapper .start:hover {
           background: #7fca83;
           color: #EBEBEB; }
+        @media (max-width: 500px) {
+          .home-page .content-wrapper .button-wrapper .start {
+            width: 30%; } }
     .home-page .content-wrapper .disclaimer {
       font-size: 14px;
       line-height: 23px; }
+      @media (max-width: 320px) {
+        .home-page .content-wrapper .disclaimer {
+          font-size: 11px; } }
 
 
 /*# sourceMappingURL=style.min.css.map */

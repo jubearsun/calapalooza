@@ -478,7 +478,11 @@ body {
   position: relative;
   z-index: 1;
   font-family: "Open Sans", sans-serif;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 .page-container {
   padding: 2%; }

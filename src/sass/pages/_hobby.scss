@@ -12,4 +12,13 @@
             }
         }
     }
+    @media (max-width: 320px) {
+        #hobby {
+            top: 0;
+        }
+        #hobby-wrapper {
+            top: 0;
+            transform: translateY(0);
+        }
+    }
 }

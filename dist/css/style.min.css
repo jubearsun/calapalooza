@@ -514,7 +514,22 @@ body {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    text-align: center; }
+    text-align: center;
+    color: #607D8B;
+    font-size: 36px; }
+    .page-container .options-wrapper button {
+      padding: 50px 20px;
+      border: solid 2px #EBEBEB;
+      background: #EBEBEB;
+      border-radius: 10px;
+      outline: none;
+      -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+      -webkit-transition: all 400ms;
+              transition: all 400ms; }
+      .page-container .options-wrapper button:hover {
+        cursor: pointer;
+        color: #EBEBEB; }
     .page-container .options-wrapper.two-options {
       *zoom: 1;
       width: 90%;
@@ -531,18 +546,7 @@ body {
         text-align: inherit;
         width: 48%;
         margin-left: 0%;
-        margin-right: 4%;
-        color: #607D8B;
-        font-size: 36px;
-        padding: 50px 20px;
-        border: solid 2px #EBEBEB;
-        background: #EBEBEB;
-        border-radius: 10px;
-        outline: none;
-        -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-                box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-        -webkit-transition: all 400ms;
-                transition: all 400ms; }
+        margin-right: 4%; }
         .page-container .options-wrapper.two-options .option:before, .page-container .options-wrapper.two-options .option:after {
           content: '';
           display: table; }
@@ -553,9 +557,6 @@ body {
           float: right; }
         .page-container .options-wrapper.two-options .option:nth-child(2n+1) {
           clear: both; }
-        .page-container .options-wrapper.two-options .option:hover {
-          cursor: pointer;
-          color: #EBEBEB; }
         @media (max-width: 920px) {
           .page-container .options-wrapper.two-options .option {
             *zoom: 1;
@@ -589,6 +590,31 @@ body {
           .page-container .options-wrapper.two-options .option {
             top: 30%;
             padding: 30px 10px; } }
+    .page-container .options-wrapper.three-options {
+      *zoom: 1; }
+      .page-container .options-wrapper.three-options:before, .page-container .options-wrapper.three-options:after {
+        content: '';
+        display: table; }
+      .page-container .options-wrapper.three-options:after {
+        clear: both; }
+      .page-container .options-wrapper.three-options .option {
+        *zoom: 1;
+        float: left;
+        clear: none;
+        text-align: inherit;
+        width: 31.33333%;
+        margin-left: 0%;
+        margin-right: 3%; }
+        .page-container .options-wrapper.three-options .option:before, .page-container .options-wrapper.three-options .option:after {
+          content: '';
+          display: table; }
+        .page-container .options-wrapper.three-options .option:after {
+          clear: both; }
+        .page-container .options-wrapper.three-options .option:nth-child(3n) {
+          margin-right: 0%;
+          float: right; }
+        .page-container .options-wrapper.three-options .option:nth-child(3n+1) {
+          clear: both; }
 
 .home-page {
   background: #1B93C0;
@@ -659,6 +685,22 @@ body {
   .start .options-wrapper .hobby:hover {
     background: #b078b2; }
   .start .options-wrapper .career:hover {
+    background: #e7ac75; }
+
+.hobby {
+  background: #b078b2; }
+  .hobby .options-wrapper .yes:hover {
+    background: #E2C558; }
+  .hobby .options-wrapper .no:hover {
+    background: #C54F7D; }
+
+.active {
+  background: #E2C558; }
+  .active .options-wrapper .perform:hover {
+    background: #d27599; }
+  .active .options-wrapper .sports:hover {
+    background: #606fc7; }
+  .active .options-wrapper .else:hover {
     background: #e7ac75; }
 
 

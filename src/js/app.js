@@ -34,6 +34,27 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
+            })
+            .state('hobby', {
+                url: '/2',
+                templateUrl: './views/hobby.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('active', {
+                url: '/3',
+                templateUrl: './views/active.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('nonactive', {
+                url: '/4',
+                templateUrl: './views/nonactive.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
             });
 
     }

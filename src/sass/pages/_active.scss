@@ -1,0 +1,20 @@
+.active {
+    background: $gold;
+    .options-wrapper {
+        .perform {
+            &:hover {
+                background: lighten($pink, 10%);
+            }
+        }
+        .sports {
+            &:hover {
+                background: lighten($indigo, 10%);
+            }
+        }
+        .else {
+            &:hover {
+                background: lighten($orange, 10%);
+            }
+        }
+    }
+}

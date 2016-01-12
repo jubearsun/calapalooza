@@ -28,9 +28,9 @@ app.config(['$stateProvider',
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
-            .state('hobbyvcareer', {
+            .state('start', {
                 url: '/1',
-                templateUrl: './views/hobbyvcareer.html',
+                templateUrl: './views/start.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

@@ -25,13 +25,68 @@ body {
 }
 
 .page-container {
+    height: 100%;
     padding: 2%;
+    color: $white;
     a {
         color: $grey;
         text-decoration: none;
         transition: color 250ms;
         &:hover {
             color: darken($grey, 10%);
+        }
+    }
+    .header {
+        top: 10%;
+        text-align: center;
+        font-size: 75px;
+        @media (max-width: 520px) {
+            font-size: 64px;
+        }
+        @media (max-width: 405px) {
+            font-size: 48px;
+            top: 20%;
+        }
+        @media (max-width: 320px) {
+            top: 10%;
+        }
+    }
+    .options-wrapper {
+        top: 40%;
+        transform: translateY(-50%);
+        text-align: center;
+        &.two-options {
+            @include cf();
+            width: 90%;
+            margin: 0 auto;
+            .option {
+                @include col(1/2, 0, 2, 0, 4);
+                color: $blue-grey;
+                font-size: 36px;
+                padding: 50px 20px;
+                border: solid 2px $white;
+                background: $white;
+                border-radius: 10px;
+                outline: none;
+                box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+                transition: all 400ms;
+                &:hover {
+                    cursor: pointer;
+                    color: $white;
+                }
+                @media (max-width: 920px) {
+                    @include col(1, 0, 1, 2);
+                    margin-top: 30px;
+                }
+                @media (max-width: 520px) {
+                    padding: 40px 15px;
+                    font-size: 24px;
+                }
+                @media (max-width: 405px) {
+                    top: 30%;
+                    padding: 30px 10px;
+                }
+            }
         }
     }
 }

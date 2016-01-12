@@ -1,8 +1,8 @@
-var app = angular.module('appName', [
+var app = angular.module('calapalooza', [
         'ui.router',
         'ngTouch'
     ]);
-    
+
 app.run([
     '$rootScope',
     '$state',
@@ -25,7 +25,7 @@ app.config(['$stateProvider',
                 url: '/',
                 templateUrl: './views/home.html',
                 data: {
-                    pageTitle: 'Title'
+                    pageTitle: 'Calapalooza Roadmap | Sponsored by Innovative Design'
                 }
             });
     }

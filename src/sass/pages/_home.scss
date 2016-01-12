@@ -1,0 +1,41 @@
+.home-page {
+    background: $blue;
+    height: 100%;
+    color: $white;
+    .content-wrapper {
+        @include vertical-align();
+        text-align: center;
+        .title {
+            font-size: 75px;
+            line-height: 121px;
+        }
+        .subtitle {
+            font-size: 36px;
+            line-height: 58px;
+        }
+        .button-wrapper {
+            width: 100%;
+            .start {
+                margin: 20px 0;
+                width: 20%;
+                font-size: 24px;
+                color: $blue-grey;
+                background: $white;
+                padding: 10px;
+                border: solid 2px $white;
+                border-radius: 5px;
+                outline: none;
+                box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+                transition: all 400ms;
+                &:hover {
+                    background: lighten($green, 20%);
+                    color: $white;
+                }
+            }
+        }
+        .disclaimer {
+            font-size: 14px;
+            line-height: 23px;
+        }
+    }
+}

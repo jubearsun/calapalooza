@@ -19,4 +19,18 @@ html {
 body {
     position: relative;
     z-index: 1;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+.page-container {
+    padding: 2%;
+    a {
+        color: $grey;
+        text-decoration: none;
+        transition: color 250ms;
+        &:hover {
+            color: darken($grey, 10%);
+        }
+    }
 }

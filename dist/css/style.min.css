@@ -476,7 +476,59 @@ html {
 
 body {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden; }
+
+.page-container {
+  padding: 2%; }
+  .page-container a {
+    color: #BDBDBD;
+    text-decoration: none;
+    -webkit-transition: color 250ms;
+            transition: color 250ms; }
+    .page-container a:hover {
+      color: #a4a4a4; }
+
+.home-page {
+  background: #1B93C0;
+  height: 100%;
+  color: #EBEBEB; }
+  .home-page .content-wrapper {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center; }
+    .home-page .content-wrapper .title {
+      font-size: 75px;
+      line-height: 121px; }
+    .home-page .content-wrapper .subtitle {
+      font-size: 36px;
+      line-height: 58px; }
+    .home-page .content-wrapper .button-wrapper {
+      width: 100%; }
+      .home-page .content-wrapper .button-wrapper .start {
+        margin: 20px 0;
+        width: 20%;
+        font-size: 24px;
+        color: #607D8B;
+        background: #EBEBEB;
+        padding: 10px;
+        border: solid 2px #EBEBEB;
+        border-radius: 5px;
+        outline: none;
+        -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+        -webkit-transition: all 400ms;
+                transition: all 400ms; }
+        .home-page .content-wrapper .button-wrapper .start:hover {
+          background: #7fca83;
+          color: #EBEBEB; }
+    .home-page .content-wrapper .disclaimer {
+      font-size: 14px;
+      line-height: 23px; }
 
 
 /*# sourceMappingURL=style.min.css.map */

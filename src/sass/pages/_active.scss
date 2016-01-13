@@ -11,19 +11,5 @@
                 background: lighten($indigo, 10%);
             }
         }
-        .else {
-            &:hover {
-                background: lighten($orange, 10%);
-            }
-        }
-    }
-    @media (max-width: 320px) {
-        #active {
-            top: 0;
-        }
-        #active-wrapper {
-            top: 0;
-            transform: translateY(0);
-        }
     }
 }

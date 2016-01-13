@@ -511,7 +511,7 @@ body {
         top: 20%; } }
     @media (max-width: 320px) {
       .page-container .header.two {
-        top: 10%; } }
+        top: 0; } }
     @media (max-width: 745px) {
       .page-container .header.three {
         font-size: 64px; } }
@@ -521,7 +521,7 @@ body {
         font-size: 48px; } }
     @media (max-width: 320px) {
       .page-container .header.three {
-        top: 5%;
+        top: 0;
         font-size: 38px; } }
   .page-container .options-wrapper {
     top: 40%;
@@ -666,6 +666,12 @@ body {
         @media (max-width: 635px) {
           .page-container .options-wrapper.three-options .option {
             font-size: 24px; } }
+    @media (max-width: 320px) {
+      .page-container .options-wrapper {
+        top: 0;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0); } }
 
 .home-page {
   background: #1B93C0;
@@ -744,14 +750,6 @@ body {
     background: #E2C558; }
   .hobby .options-wrapper .no:hover {
     background: #C54F7D; }
-  @media (max-width: 320px) {
-    .hobby #hobby {
-      top: 0; }
-    .hobby #hobby-wrapper {
-      top: 0;
-      -webkit-transform: translateY(0);
-          -ms-transform: translateY(0);
-              transform: translateY(0); } }
 
 .active {
   background: #E2C558; }
@@ -759,16 +757,6 @@ body {
     background: #d27599; }
   .active .options-wrapper .sports:hover {
     background: #606fc7; }
-  .active .options-wrapper .else:hover {
-    background: #e7ac75; }
-  @media (max-width: 320px) {
-    .active #active {
-      top: 0; }
-    .active #active-wrapper {
-      top: 0;
-      -webkit-transform: translateY(0);
-          -ms-transform: translateY(0);
-              transform: translateY(0); } }
 
 
 /*# sourceMappingURL=style.min.css.map */

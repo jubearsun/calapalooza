@@ -1,0 +1,15 @@
+.active-arts {
+    background: lighten($pink, 10%);
+    .options-wrapper {
+        .yes {
+            &:hover {
+                background: $cyan;
+            }
+        }
+        .no {
+            &:hover {
+                background: $gold;
+            }
+        }
+    }
+}

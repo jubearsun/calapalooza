@@ -55,7 +55,20 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
+            })
+            .state('active-arts', {
+                url: '/5',
+                templateUrl: './views/active-arts.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('sports', {
+                url: '/6',
+                templateUrl: './views/sports.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
             });
-
     }
 ]);

@@ -758,5 +758,19 @@ body {
   .active .options-wrapper .sports:hover {
     background: #606fc7; }
 
+.active-arts {
+  background: #d27599; }
+  .active-arts .options-wrapper .yes:hover {
+    background: #00BCD4; }
+  .active-arts .options-wrapper .no:hover {
+    background: #E2C558; }
+
+.sports {
+  background: #606fc7; }
+  .sports .options-wrapper .club:hover {
+    background: #b078b2; }
+  .sports .options-wrapper .intramural:hover {
+    background: #7fca83; }
+
 
 /*# sourceMappingURL=style.min.css.map */

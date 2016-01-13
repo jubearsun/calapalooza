@@ -743,14 +743,6 @@ body {
     background: #b078b2; }
   .start .options-wrapper .career:hover {
     background: #e7ac75; }
-  @media (max-width: 320px) {
-    .start #start-header {
-      top: 0; }
-    .start #start-wrapper {
-      top: 0;
-      -webkit-transform: translateY(0);
-          -ms-transform: translateY(0);
-              transform: translateY(0); } }
 
 .hobby {
   background: #b078b2; }

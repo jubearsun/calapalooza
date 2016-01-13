@@ -12,13 +12,4 @@
             }
         }
     }
-    @media (max-width: 320px) {
-        #start-header {
-            top: 0;
-        }
-        #start-wrapper {
-            top: 0;
-            transform: translateY(0);
-        }
-    }
 }

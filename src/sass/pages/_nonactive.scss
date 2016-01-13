@@ -1,0 +1,20 @@
+.nonactive {
+    background: $pink;
+    .options-wrapper {
+        .perform {
+            &:hover {
+                background: lighten($purple, 10%);
+            }
+        }
+        .visual {
+            &:hover {
+                background: $blue;
+            }
+        }
+        .else {
+            &:hover {
+                background: $gold;
+            }
+        }
+    }
+}

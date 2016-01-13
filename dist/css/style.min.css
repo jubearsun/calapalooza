@@ -758,10 +758,19 @@ body {
   .active .options-wrapper .sports:hover {
     background: #606fc7; }
 
+.nonactive {
+  background: #C54F7D; }
+  .nonactive .options-wrapper .perform:hover {
+    background: #b078b2; }
+  .nonactive .options-wrapper .visual:hover {
+    background: #1B93C0; }
+  .nonactive .options-wrapper .else:hover {
+    background: #E2C558; }
+
 .active-arts {
   background: #d27599; }
   .active-arts .options-wrapper .yes:hover {
-    background: #00BCD4; }
+    background: #1B93C0; }
   .active-arts .options-wrapper .no:hover {
     background: #E2C558; }
 

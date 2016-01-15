@@ -22,9 +22,9 @@ body {
     font-family: "Open Sans", sans-serif;
     overflow: hidden;
     user-select: none;
-    @media (max-width: 320px) {
-        overflow: auto;
-    }
+    // @media (max-width: 320px) {
+    //     overflow: auto;
+    // }
 }
 
 .page-container {
@@ -45,7 +45,6 @@ body {
             text-align: center;
             font-size: 75px;
             &.two {
-                // top: 10%;
                 @media (max-width: 520px) {
                     font-size: 64px;
                 }
@@ -58,7 +57,6 @@ body {
                 }
             }
             &.three {
-                // top: 10%;
                 @media (max-width: 745px) {
                     font-size: 64px;
                 }
@@ -73,8 +71,6 @@ body {
             }
         }
         .options-wrapper {
-            // top: 40%;
-            // transform: translateY(-50%);
             padding-top: 70px;
             text-align: center;
             color: $blue-grey;
@@ -107,7 +103,6 @@ body {
                         font-size: 24px;
                     }
                     @media (max-width: 405px) {
-                        // top: 30%;
                         padding: 30px 10px;
                     }
                 }
@@ -135,14 +130,11 @@ body {
                 }
             }
             @media (max-width: 320px) {
-                // top: 0%;
-                // transform: translateY(0);
                 padding-top: 20px;
             }
         }
         @media (max-width: 320px) {
             @include undo-vertical-align();
-
         }
     }
 }

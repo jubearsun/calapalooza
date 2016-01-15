@@ -483,9 +483,6 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
-  @media (max-width: 320px) {
-    body {
-      overflow: auto; } }
 
 .page-container {
   height: 100%;

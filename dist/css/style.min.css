@@ -509,14 +509,12 @@ body {
           font-size: 64px; } }
       @media (max-width: 405px) {
         .page-container .questions-wrapper .header.two {
-          font-size: 48px;
-          top: 20%; } }
+          font-size: 48px; } }
       @media (max-width: 745px) {
         .page-container .questions-wrapper .header.three {
           font-size: 64px; } }
       @media (max-width: 635px) {
         .page-container .questions-wrapper .header.three {
-          top: 15%;
           font-size: 48px; } }
       @media (max-width: 320px) {
         .page-container .questions-wrapper .header.three {
@@ -741,9 +739,6 @@ body {
     background: #1B93C0; }
   .career .questions-wrapper .options-wrapper .no:hover {
     background: #E2C558; }
-  @media (max-width: 320px) {
-    .career {
-      padding-bottom: 30px; } }
 
 .start {
   background: #7fca83; }

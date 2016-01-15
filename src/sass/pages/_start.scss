@@ -1,14 +1,16 @@
 .start {
     background: lighten($green, 20%);
-    .options-wrapper {
-        .hobby {
-            &:hover {
-                background: lighten($purple, 10%);
+    .questions-wrapper {
+        .options-wrapper {
+            .hobby {
+                &:hover {
+                    background: lighten($purple, 10%);
+                }
             }
-        }
-        .career {
-            &:hover {
-                background: lighten($orange, 10%);
+            .career {
+                &:hover {
+                    background: lighten($orange, 10%);
+                }
             }
         }
     }

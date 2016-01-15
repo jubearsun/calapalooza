@@ -69,6 +69,13 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
+            })
+            .state('career', {
+                url: '/7',
+                templateUrl: './views/career.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
             });
     }
 ]);

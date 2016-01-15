@@ -22,9 +22,6 @@ body {
     font-family: "Open Sans", sans-serif;
     overflow: hidden;
     user-select: none;
-    // @media (max-width: 320px) {
-    //     overflow: auto;
-    // }
 }
 
 .page-container {
@@ -52,9 +49,9 @@ body {
                     font-size: 48px;
                     top: 20%;
                 }
-                @media (max-width: 320px) {
-                    top: 0%;
-                }
+                // @media (max-width: 320px) {
+                //     top: 0%;
+                // }
             }
             &.three {
                 @media (max-width: 745px) {
@@ -65,7 +62,7 @@ body {
                     font-size: 48px;
                 }
                 @media (max-width: 320px) {
-                    top: 0%;
+                    // top: 0%;
                     font-size: 38px;
                 }
             }

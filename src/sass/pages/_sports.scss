@@ -1,14 +1,16 @@
 .sports {
     background: lighten($indigo, 10%);
-    .options-wrapper {
-        .club {
-            &:hover {
-                background: lighten($purple, 10%);
+    .questions-wrapper {
+        .options-wrapper {
+            .club {
+                &:hover {
+                    background: lighten($purple, 10%);
+                }
             }
-        }
-        .intramural {
-            &:hover {
-                background: lighten($green, 20%);
+            .intramural {
+                &:hover {
+                    background: lighten($green, 20%);
+                }
             }
         }
     }

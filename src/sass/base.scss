@@ -39,101 +39,106 @@ body {
             color: darken($grey, 10%);
         }
     }
-    .header {
-        text-align: center;
-        font-size: 75px;
-        &.two {
-            top: 10%;
-            @media (max-width: 520px) {
-                font-size: 64px;
-            }
-            @media (max-width: 405px) {
-                font-size: 48px;
-                top: 20%;
-            }
-            @media (max-width: 320px) {
-                top: 0%;
-            }
-        }
-        &.three {
-            top: 10%;
-            @media (max-width: 745px) {
-                font-size: 64px;
-            }
-            @media (max-width: 635px) {
-                top: 15%;
-                font-size: 48px;
-            }
-            @media (max-width: 320px) {
-                top: 0%;
-                font-size: 38px;
-            }
-        }
-    }
-    .options-wrapper {
-        top: 40%;
-        transform: translateY(-50%);
-        text-align: center;
-        color: $blue-grey;
-        font-size: 36px;
-        button {
-            padding: 50px 20px;
-            border: solid 2px $white;
-            background: $white;
-            border-radius: 10px;
-            outline: none;
-            box-shadow: 0 3px 0 rgba(0,0,0,0.1);
-            transition: all 400ms;
-            &:hover {
-                cursor: pointer;
-                color: $white;
-            }
-        }
-        &.two-options {
-            @include cf();
-            width: 90%;
-            margin: 0 auto;
-            .option {
-                @include col(1/2, 0, 2, 0, 4);
-                @media (max-width: 920px) {
-                    @include col(1, 0, 1, 2);
-                    margin-top: 30px;
-                }
+    .questions-wrapper {
+        @include vertical-align();
+        .header {
+            text-align: center;
+            font-size: 75px;
+            &.two {
+                // top: 10%;
                 @media (max-width: 520px) {
-                    padding: 40px 15px;
-                    font-size: 24px;
+                    font-size: 64px;
                 }
                 @media (max-width: 405px) {
-                    top: 30%;
-                    padding: 30px 10px;
+                    font-size: 48px;
+                    top: 20%;
+                }
+                @media (max-width: 320px) {
+                    top: 0%;
                 }
             }
-        }
-        &.three-options {
-            @include cf();
-            @media (max-width: 1025px) {
-                width: 90%;
-                margin: 0 auto;
-            }
-            .option {
-                @include col(1/3, 0, 3);
-                @media (max-width: 1025px) {
-                    @include col(1, 0, 1, 3);
-                    margin-top: 30px;
-                    padding: 30px 10px;
-                }
+            &.three {
+                // top: 10%;
                 @media (max-width: 745px) {
-                    margin-top: 20px;
-                    padding: 20px;
+                    font-size: 64px;
                 }
                 @media (max-width: 635px) {
-                    font-size: 24px;
+                    top: 15%;
+                    font-size: 48px;
+                }
+                @media (max-width: 320px) {
+                    top: 0%;
+                    font-size: 38px;
                 }
             }
         }
-        @media (max-width: 320px) {
-            top: 0%;
-            transform: translateY(0);
+        .options-wrapper {
+            // top: 40%;
+            // transform: translateY(-50%);
+            padding-top: 70px;
+            text-align: center;
+            color: $blue-grey;
+            font-size: 36px;
+            button {
+                padding: 50px 20px;
+                border: solid 2px $white;
+                background: $white;
+                border-radius: 10px;
+                outline: none;
+                box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+                transition: all 400ms;
+                &:hover {
+                    cursor: pointer;
+                    color: $white;
+                }
+            }
+            &.two-options {
+                @include cf();
+                width: 90%;
+                margin: 0 auto;
+                .option {
+                    @include col(1/2, 0, 2, 0, 4);
+                    @media (max-width: 920px) {
+                        @include col(1, 0, 1, 2);
+                        margin-top: 30px;
+                    }
+                    @media (max-width: 520px) {
+                        padding: 40px 15px;
+                        font-size: 24px;
+                    }
+                    @media (max-width: 405px) {
+                        // top: 30%;
+                        padding: 30px 10px;
+                    }
+                }
+            }
+            &.three-options {
+                @include cf();
+                @media (max-width: 1025px) {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                .option {
+                    @include col(1/3, 0, 3);
+                    @media (max-width: 1025px) {
+                        @include col(1, 0, 1, 3);
+                        margin-top: 30px;
+                        padding: 30px 10px;
+                    }
+                    @media (max-width: 745px) {
+                        margin-top: 20px;
+                        padding: 20px;
+                    }
+                    @media (max-width: 635px) {
+                        font-size: 24px;
+                    }
+                }
+            }
+            @media (max-width: 320px) {
+                // top: 0%;
+                // transform: translateY(0);
+                padding-top: 20px;
+            }
         }
     }
 }

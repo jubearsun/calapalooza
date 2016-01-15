@@ -140,5 +140,9 @@ body {
                 padding-top: 20px;
             }
         }
+        @media (max-width: 320px) {
+            @include undo-vertical-align();
+
+        }
     }
 }

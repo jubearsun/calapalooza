@@ -1,0 +1,17 @@
+.career {
+    background: lighten($orange, 10%);
+    .questions-wrapper {
+        .options-wrapper {
+            .yes {
+                &:hover {
+                    background: $blue;
+                }
+            }
+            .no {
+                &:hover {
+                    background: $gold;
+                }
+            }
+        }
+    }
+}

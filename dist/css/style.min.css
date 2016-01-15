@@ -741,6 +741,9 @@ body {
     background: #1B93C0; }
   .career .questions-wrapper .options-wrapper .no:hover {
     background: #E2C558; }
+  @media (max-width: 320px) {
+    .career {
+      padding-bottom: 30px; } }
 
 .start {
   background: #7fca83; }

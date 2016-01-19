@@ -4,7 +4,7 @@
         .options-wrapper {
             .perform {
                 &:hover {
-                    background: lighten($purple, 10%);
+                    background: $pink;
                 }
             }
             .visual {
@@ -14,7 +14,7 @@
             }
             .else {
                 &:hover {
-                    background: $gold;
+                    background: lighten($green, 20%);
                 }
             }
         }

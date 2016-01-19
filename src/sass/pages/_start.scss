@@ -4,12 +4,12 @@
         .options-wrapper {
             .hobby {
                 &:hover {
-                    background: lighten($purple, 10%);
+                    background: $gold;
                 }
             }
             .career {
                 &:hover {
-                    background: lighten($orange, 10%);
+                    background: $blue;
                 }
             }
         }

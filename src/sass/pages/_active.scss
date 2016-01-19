@@ -3,12 +3,12 @@
     .options-wrapper {
         .perform {
             &:hover {
-                background: lighten($pink, 10%);
+                background: $pink;
             }
         }
         .sports {
             &:hover {
-                background: lighten($indigo, 10%);
+                background: $blue;
             }
         }
     }

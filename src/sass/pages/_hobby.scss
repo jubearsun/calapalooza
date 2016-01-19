@@ -1,9 +1,9 @@
 .hobby {
-    background: lighten($purple, 10%);
+    background: $gold;
     .options-wrapper {
         .yes {
             &:hover {
-                background: $gold;
+                background: $blue;
             }
         }
         .no {

@@ -734,41 +734,41 @@ body {
           font-size: 11px; } }
 
 .career {
-  background: #e7ac75; }
+  background: #1B93C0; }
   .career .questions-wrapper .options-wrapper .yes:hover {
-    background: #1B93C0; }
+    background: #C54F7D; }
   .career .questions-wrapper .options-wrapper .no:hover {
     background: #E2C558; }
 
 .start {
   background: #7fca83; }
   .start .questions-wrapper .options-wrapper .hobby:hover {
-    background: #b078b2; }
+    background: #E2C558; }
   .start .questions-wrapper .options-wrapper .career:hover {
-    background: #e7ac75; }
+    background: #1B93C0; }
 
 .hobby {
-  background: #b078b2; }
+  background: #E2C558; }
   .hobby .options-wrapper .yes:hover {
-    background: #E2C558; }
+    background: #1B93C0; }
   .hobby .options-wrapper .no:hover {
     background: #C54F7D; }
 
 .active {
   background: #E2C558; }
   .active .options-wrapper .perform:hover {
-    background: #d27599; }
+    background: #C54F7D; }
   .active .options-wrapper .sports:hover {
-    background: #606fc7; }
+    background: #1B93C0; }
 
 .nonactive {
   background: #C54F7D; }
   .nonactive .questions-wrapper .options-wrapper .perform:hover {
-    background: #b078b2; }
+    background: #C54F7D; }
   .nonactive .questions-wrapper .options-wrapper .visual:hover {
     background: #1B93C0; }
   .nonactive .questions-wrapper .options-wrapper .else:hover {
-    background: #E2C558; }
+    background: #7fca83; }
 
 .active-arts {
   background: #d27599; }
@@ -778,11 +778,11 @@ body {
     background: #E2C558; }
 
 .sports {
-  background: #606fc7; }
+  background: #1B93C0; }
   .sports .questions-wrapper .options-wrapper .club:hover {
-    background: #b078b2; }
+    background: #C54F7D; }
   .sports .questions-wrapper .options-wrapper .intramural:hover {
-    background: #7fca83; }
+    background: #E2C558; }
 
 
 /*# sourceMappingURL=style.min.css.map */

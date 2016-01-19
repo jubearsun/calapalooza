@@ -1,15 +1,15 @@
 .sports {
-    background: lighten($indigo, 10%);
+    background: $blue;
     .questions-wrapper {
         .options-wrapper {
             .club {
                 &:hover {
-                    background: lighten($purple, 10%);
+                    background: $pink;
                 }
             }
             .intramural {
                 &:hover {
-                    background: lighten($green, 20%);
+                    background: $gold;
                 }
             }
         }

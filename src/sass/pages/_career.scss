@@ -1,10 +1,10 @@
 .career {
-    background: lighten($orange, 10%);
+    background: $blue;
     .questions-wrapper {
         .options-wrapper {
             .yes {
                 &:hover {
-                    background: $blue;
+                    background: $pink;
                 }
             }
             .no {

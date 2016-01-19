@@ -784,5 +784,12 @@ body {
   .sports .questions-wrapper .options-wrapper .intramural:hover {
     background: #E2C558; }
 
+.nongvt {
+  background: #E2C558; }
+  .nongvt .questions-wrapper .options-wrapper .yes:hover {
+    background: #C54F7D; }
+  .nongvt .questions-wrapper .options-wrapper .no:hover {
+    background: #1B93C0; }
+
 
 /*# sourceMappingURL=style.min.css.map */

@@ -1,0 +1,17 @@
+.nongvt {
+    background: $gold;
+    .questions-wrapper {
+        .options-wrapper {
+            .yes {
+                &:hover {
+                    background: $pink;
+                }
+            }
+            .no {
+                &:hover {
+                    background: $blue;
+                }
+            }
+        }
+    }
+}

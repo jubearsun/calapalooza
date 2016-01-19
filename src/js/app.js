@@ -76,6 +76,13 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
+            })
+            .state('nongvt', {
+                url: '/8',
+                templateUrl: './views/nongvt.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
             });
     }
 ]);

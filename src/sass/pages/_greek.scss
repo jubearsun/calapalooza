@@ -1,0 +1,11 @@
+.greek {
+    .results-wrapper {
+        ul.org-list {
+            li {
+                @media (max-width: 1130px) {
+                    @include col(1, 0, 1, 2);
+                }
+            }
+        }
+    }
+}

@@ -1,17 +1,11 @@
-<div class="greek page-container results-page">
+<div class="greek page-container" ng-controller="greekCtrl">
     <div class="results-wrapper">
         <div class="header">Professional Fraternities</div>
         <div class="subheader">There are plenty of professional fraternities at Berkeley to choose from, based on your interests and/or major!  Below are examples of a few.</div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eaque amet quidem vel ab, unde veniam eius dolores nisi in quae esse, autem culpa alias eveniet itaque pariatur officia nostrum.
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sit illo fuga id omnis, et. Facilis, vero inventore non dolorum provident dolor, totam! Nisi atque perspiciatis esse id exercitationem accusamus.</div>
-        <div>Dignissimos optio aliquam iusto, quae dolores voluptate voluptatum labore dolorum illum laudantium repellendus ab pariatur nihil, libero enim, temporibus iste nostrum fugit explicabo mollitia quas similique assumenda harum vero! Nobis.</div>
-        <div>Quos temporibus magni pariatur non officia repellat enim doloribus, expedita assumenda fugiat beatae autem unde iste ullam libero itaque amet sit iure nulla facilis praesentium. Vitae mollitia, recusandae deleniti deserunt.</div>
-        <div>Architecto rerum voluptatibus quidem, neque officia nesciunt perspiciatis alias voluptate blanditiis non exercitationem beatae provident vel debitis asperiores quasi possimus ratione? Nulla placeat veniam sed tempore consequuntur obcaecati, cupiditate quod.</div>
-        <div>Placeat adipisci suscipit maxime iure quae ex. Expedita nemo nihil culpa iste consectetur aspernatur minima asperiores ut ab, obcaecati reprehenderit, saepe explicabo, repellendus eum autem earum possimus esse nisi. Hic.</div>
-        <div>Totam inventore architecto possimus vitae quidem ducimus corporis assumenda eum laborum! Ut nostrum culpa itaque cumque consequuntur provident deleniti natus autem facere in, inventore delectus quos laborum, at alias dolore.</div>
-        <div>Ipsam quia odit eos quasi adipisci, reiciendis ea sit tenetur distinctio amet, commodi laudantium fugiat, accusamus maiores hic porro vel iusto. Nihil provident dolore quidem iusto dolorem odit a voluptatem?</div>
-        <div>Quisquam earum ducimus voluptate in necessitatibus ut, cumque placeat natus harum dolores at, iusto pariatur nesciunt, minus explicabo, quo architecto blanditiis. Cumque autem aperiam eaque sunt, nostrum, sint quam aspernatur?</div>
-        <div>Deleniti temporibus voluptates inventore vel error accusantium hic consequatur culpa ut ea nihil suscipit voluptatibus molestias sunt commodi molestiae est, magni mollitia. Autem quos placeat reprehenderit pariatur, aliquid, iusto delectus.</div>
-        <div>Fugit, voluptate perspiciatis at, non porro quibusdam cumque ipsam consectetur sequi repudiandae error cupiditate quos aperiam voluptatem numquam ab minima facilis ut. Earum nihil ut dolores blanditiis, beatae accusamus voluptatem.</div>
+        <ul class="org-list">
+            <li ng-repeat="frat in frats track by $index">
+                <a href="{{ frat.link }}" target="_blank">{{ frat.name }}</a>
+            </li>
+        </ul>
     </div>
 </div>

@@ -35,6 +35,54 @@ body {
             color: darken($grey, 10%);
         }
     }
+    .results-wrapper {
+        padding: 20px;
+        .header {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 10px;
+            @media (max-width: 540px) {
+                font-size: 48px;
+            }
+            &:before {
+                margin-bottom: 10px;
+                font-size: 24px;
+                content: "You might be interested in...";
+                display: block;
+                text-align: left;
+                @media (max-width: 540px) {
+                    font-size: 18px;
+                }
+            }
+        }
+        .subheader {
+            margin-bottom: 10px;
+            font-size: 24px;
+            @media (max-width: 540px) {
+                font-size: 18px;
+            }
+            &:after {
+                margin: 10px 0;
+                display: block;
+                font-size: 16px;
+                text-align: left;
+                content: "*This is by no means a comprehensive list and meant as a guide only."
+            }
+        }
+        .org-list {
+            @include cf();
+            font-size: 22px;
+            list-style-type: none;
+            li {
+                @include col(1/2, 0, 2);
+                padding: 5px;
+                transition: text-decoration 500ms;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
     .questions-wrapper {
         @include vertical-align();
         .header {
@@ -130,33 +178,5 @@ body {
 }
 
 .results-page {
-    height: auto;
-    overflow: auto;
-    .results-wrapper {
-        padding: 20px;
-        .header {
-            text-align: center;
-            font-size: 48px;
-            margin-bottom: 10px;
-            @media (max-width: 540px) {
-                font-size: 48px;
-            }
-            &:before {
-                margin-bottom: 10px;
-                font-size: 24px;
-                content: "You might be interested in...";
-                display: block;
-                text-align: left;
-                @media (max-width: 540px) {
-                    font-size: 18px;
-                }
-            }
-        }
-        .subheader {
-            font-size: 24px;
-            @media (max-width: 540px) {
-                font-size: 18px;
-            }
-        }
-    }
+
 }

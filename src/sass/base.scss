@@ -20,7 +20,6 @@ body {
     position: relative;
     z-index: 1;
     font-family: "Open Sans", sans-serif;
-    overflow: hidden;
     user-select: none;
 }
 
@@ -126,6 +125,38 @@ body {
         }
         @media (max-width: 320px) {
             @include undo-vertical-align();
+        }
+    }
+}
+
+.results-page {
+    height: auto;
+    overflow: auto;
+    .results-wrapper {
+        padding: 20px;
+        .header {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 10px;
+            @media (max-width: 540px) {
+                font-size: 48px;
+            }
+            &:before {
+                margin-bottom: 10px;
+                font-size: 24px;
+                content: "You might be interested in...";
+                display: block;
+                text-align: left;
+                @media (max-width: 540px) {
+                    font-size: 18px;
+                }
+            }
+        }
+        .subheader {
+            font-size: 24px;
+            @media (max-width: 540px) {
+                font-size: 18px;
+            }
         }
     }
 }

@@ -478,7 +478,6 @@ body {
   position: relative;
   z-index: 1;
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -669,6 +668,33 @@ body {
             -ms-transform: translateY(0);
                 transform: translateY(0); } }
 
+.results-page {
+  height: auto;
+  overflow: auto; }
+  .results-page .results-wrapper {
+    padding: 20px; }
+    .results-page .results-wrapper .header {
+      text-align: center;
+      font-size: 48px;
+      margin-bottom: 10px; }
+      @media (max-width: 540px) {
+        .results-page .results-wrapper .header {
+          font-size: 48px; } }
+      .results-page .results-wrapper .header:before {
+        margin-bottom: 10px;
+        font-size: 24px;
+        content: "You might be interested in...";
+        display: block;
+        text-align: left; }
+        @media (max-width: 540px) {
+          .results-page .results-wrapper .header:before {
+            font-size: 18px; } }
+    .results-page .results-wrapper .subheader {
+      font-size: 24px; }
+      @media (max-width: 540px) {
+        .results-page .results-wrapper .subheader {
+          font-size: 18px; } }
+
 .home-page {
   background: #1B93C0;
   color: #EBEBEB; }
@@ -764,7 +790,7 @@ body {
 .nonactive {
   background: #C54F7D; }
   .nonactive .questions-wrapper .options-wrapper .perform:hover {
-    background: #C54F7D; }
+    background: #E2C558; }
   .nonactive .questions-wrapper .options-wrapper .visual:hover {
     background: #1B93C0; }
   .nonactive .questions-wrapper .options-wrapper .else:hover {

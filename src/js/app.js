@@ -90,6 +90,12 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
+            }).state('greek', {
+                url: '/10',
+                templateUrl: './views/greek.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
             });
     }
 ]);

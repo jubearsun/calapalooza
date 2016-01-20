@@ -1,3 +1,35 @@
+// Helper Functions
+
+function setBackgroundColor(doc, state) {
+    var colors = {
+        "blue": '#1B93C0',
+        "white": '#EBEBEB',
+        "black": '#000000',
+        "bluegrey": '#607D8B',
+        "green": '#66BB6A',
+        "grey": '#BDBDBD',
+        "pink": '#C54F7D',
+        "gold": '#E2C558',
+        "indigo": '#3F51B5'
+    };
+
+    var stateColors = {
+        home: colors.blue,
+        start: colors.green,
+        hobby: colors.gold,
+        active: colors.blue,
+        activearts: colors.pink,
+        sports: colors.gold,
+        nonactive: colors.pink,
+        career: colors.blue,
+        nongvt: colors.gold,
+        professional: colors.blue,
+        greek: colors.pink
+    };
+
+    doc.body.style.backgroundColor = stateColors[state];
+}
+
 var app = angular.module('calapalooza', [
         'ui.router',
         'ngTouch'
@@ -7,9 +39,14 @@ app.run([
     '$rootScope',
     '$state',
     '$stateParams',
-    function ($rootScope, $state, $stateParams) {
+    '$document',
+    function ($rootScope, $state, $stateParams, $document) {
         $rootScope.$state = $state;
         $rootScope.$stateParams = $stateParams;
+
+        $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams) {
+            setBackgroundColor($document[0], toState.name);
+        });
     }
 ]);
 
@@ -33,7 +70,7 @@ app.config(['$stateProvider',
                 templateUrl: './views/start.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
-                }
+                },
             })
             .state('hobby', {
                 url: '/2',
@@ -56,9 +93,9 @@ app.config(['$stateProvider',
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
-            .state('active-arts', {
+            .state('activearts', {
                 url: '/5',
-                templateUrl: './views/active-arts.html',
+                templateUrl: './views/activearts.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

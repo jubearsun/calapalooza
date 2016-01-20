@@ -1,5 +1,4 @@
 .sports {
-    background: $blue;
     .questions-wrapper {
         .options-wrapper {
             .club {
@@ -9,7 +8,7 @@
             }
             .intramural {
                 &:hover {
-                    background: $gold;
+                    background: $blue;
                 }
             }
         }

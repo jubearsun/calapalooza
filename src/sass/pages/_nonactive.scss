@@ -14,7 +14,7 @@
             }
             .else {
                 &:hover {
-                    background: lighten($green, 20%);
+                    background: $green;
                 }
             }
         }

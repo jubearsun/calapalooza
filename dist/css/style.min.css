@@ -747,7 +747,7 @@ body {
         -webkit-transition: all 400ms;
                 transition: all 400ms; }
         .home-page .content-wrapper .button-wrapper .start:hover {
-          background: #7fca83;
+          background: #66BB6A;
           color: #EBEBEB; }
         @media (max-width: 500px) {
           .home-page .content-wrapper .button-wrapper .start {
@@ -766,12 +766,10 @@ body {
   .career .questions-wrapper .options-wrapper .no:hover {
     background: #E2C558; }
 
-.start {
-  background: #7fca83; }
-  .start .questions-wrapper .options-wrapper .hobby:hover {
-    background: #E2C558; }
-  .start .questions-wrapper .options-wrapper .career:hover {
-    background: #1B93C0; }
+.start .questions-wrapper .options-wrapper .hobby:hover {
+  background: #E2C558; }
+.start .questions-wrapper .options-wrapper .career:hover {
+  background: #1B93C0; }
 
 .hobby {
   background: #E2C558; }
@@ -780,12 +778,10 @@ body {
   .hobby .options-wrapper .no:hover {
     background: #C54F7D; }
 
-.active {
+.active .options-wrapper .perform:hover {
+  background: #C54F7D; }
+.active .options-wrapper .sports:hover {
   background: #E2C558; }
-  .active .options-wrapper .perform:hover {
-    background: #C54F7D; }
-  .active .options-wrapper .sports:hover {
-    background: #1B93C0; }
 
 .nonactive {
   background: #C54F7D; }
@@ -794,7 +790,7 @@ body {
   .nonactive .questions-wrapper .options-wrapper .visual:hover {
     background: #1B93C0; }
   .nonactive .questions-wrapper .options-wrapper .else:hover {
-    background: #7fca83; }
+    background: #66BB6A; }
 
 .active-arts {
   background: #d27599; }
@@ -803,12 +799,10 @@ body {
   .active-arts .options-wrapper .no:hover {
     background: #E2C558; }
 
-.sports {
+.sports .questions-wrapper .options-wrapper .club:hover {
+  background: #C54F7D; }
+.sports .questions-wrapper .options-wrapper .intramural:hover {
   background: #1B93C0; }
-  .sports .questions-wrapper .options-wrapper .club:hover {
-    background: #C54F7D; }
-  .sports .questions-wrapper .options-wrapper .intramural:hover {
-    background: #E2C558; }
 
 .nongvt {
   background: #E2C558; }

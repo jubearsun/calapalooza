@@ -519,7 +519,7 @@ body {
         .page-container .results-wrapper .subheader {
           font-size: 18px; } }
       .page-container .results-wrapper .subheader:after {
-        margin: 10px 0;
+        margin: 10px 0 30px 0;
         display: block;
         font-size: 16px;
         text-align: left;
@@ -538,7 +538,7 @@ body {
         float: left;
         clear: none;
         text-align: inherit;
-        width: 48.5%;
+        width: 31.33333%;
         margin-left: 0%;
         margin-right: 3%;
         padding: 5px;
@@ -549,10 +549,10 @@ body {
           display: table; }
         .page-container .results-wrapper .org-list li:after {
           clear: both; }
-        .page-container .results-wrapper .org-list li:nth-child(2n) {
+        .page-container .results-wrapper .org-list li:nth-child(3n) {
           margin-right: 0%;
           float: right; }
-        .page-container .results-wrapper .org-list li:nth-child(2n+1) {
+        .page-container .results-wrapper .org-list li:nth-child(3n+1) {
           clear: both; }
         .page-container .results-wrapper .org-list li:hover {
           text-decoration: underline; }
@@ -853,6 +853,30 @@ body {
   .professional .questions-wrapper .options-wrapper .no:hover {
     background: #E2C558; }
 
+@media (max-width: 1340px) {
+  .greek .results-wrapper ul.org-list li {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    .greek .results-wrapper ul.org-list li:before, .greek .results-wrapper ul.org-list li:after {
+      content: '';
+      display: table; }
+    .greek .results-wrapper ul.org-list li:after {
+      clear: both; }
+    .greek .results-wrapper ul.org-list li:nth-child(3n) {
+      margin-right: 3%;
+      float: left; }
+    .greek .results-wrapper ul.org-list li:nth-child(3n+1) {
+      clear: none; }
+    .greek .results-wrapper ul.org-list li:nth-child(2n) {
+      margin-right: 0%;
+      float: right; }
+    .greek .results-wrapper ul.org-list li:nth-child(2n+1) {
+      clear: both; } }
 @media (max-width: 1130px) {
   .greek .results-wrapper ul.org-list li {
     *zoom: 1;

@@ -83,6 +83,13 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
+            })
+            .state('professional', {
+                url: '/9',
+                templateUrl: './views/professional.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
             });
     }
 ]);

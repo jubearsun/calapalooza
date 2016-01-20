@@ -791,5 +791,12 @@ body {
   .nongvt .questions-wrapper .options-wrapper .no:hover {
     background: #1B93C0; }
 
+.professional {
+  background: #1B93C0; }
+  .professional .questions-wrapper .options-wrapper .yes:hover {
+    background: #C54F7D; }
+  .professional .questions-wrapper .options-wrapper .no:hover {
+    background: #E2C558; }
+
 
 /*# sourceMappingURL=style.min.css.map */

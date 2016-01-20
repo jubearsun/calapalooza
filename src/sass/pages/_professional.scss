@@ -1,0 +1,17 @@
+.professional {
+    background: $blue;
+    .questions-wrapper {
+        .options-wrapper {
+            .yes {
+                &:hover {
+                    background: $pink;
+                }
+            }
+            .no {
+                &:hover {
+                    background: $gold;
+                }
+            }
+        }
+    }
+}

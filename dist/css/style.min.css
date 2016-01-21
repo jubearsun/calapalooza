@@ -929,6 +929,30 @@ body {
             transition: color 250ms; }
     .nongreek .results-wrapper .org-list li a:hover {
       color: #BDBDBD; }
+  @media (max-width: 900px) {
+    .nongreek .results-wrapper .org-list li {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .nongreek .results-wrapper .org-list li:before, .nongreek .results-wrapper .org-list li:after {
+        content: '';
+        display: table; }
+      .nongreek .results-wrapper .org-list li:after {
+        clear: both; }
+      .nongreek .results-wrapper .org-list li:nth-child(2n) {
+        margin-right: 3%;
+        float: left; }
+      .nongreek .results-wrapper .org-list li:nth-child(2n+1) {
+        clear: none; }
+      .nongreek .results-wrapper .org-list li:nth-child(1n) {
+        margin-right: 0%;
+        float: right; }
+      .nongreek .results-wrapper .org-list li:nth-child(1n+1) {
+        clear: both; } }
 
 
 /*# sourceMappingURL=style.min.css.map */

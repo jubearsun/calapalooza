@@ -10,6 +10,9 @@
                         color: $grey;
                     }
                 }
+                @media (max-width: 900px) {
+                    @include col(1, 0, 1, 2);
+                }
             }
         }
     }

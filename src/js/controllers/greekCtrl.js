@@ -24,6 +24,16 @@ app.controller('greekCtrl', ['$scope', function($scope) {
             focus: 'Service'
         },
         {
+            name: 'Delta Kappa Alpha',
+            link: 'http://www.caldka.org/',
+            focus: 'Cinematic Arts'
+        },
+        {
+            name: 'Delta Phi Epsilon',
+            link: 'http://dpe.berkeley.edu/',
+            focus: 'Foreign Service'
+        },
+        {
             name: 'Delta Sigma Pi',
             link: 'http://www.dsp-rho.com/',
             focus: 'Business'

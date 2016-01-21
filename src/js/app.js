@@ -3,14 +3,9 @@
 function setBackgroundColor(doc, state) {
     var colors = {
         "blue": '#1B93C0',
-        "white": '#EBEBEB',
-        "black": '#000000',
-        "bluegrey": '#607D8B',
         "green": '#66BB6A',
-        "grey": '#BDBDBD',
         "pink": '#C54F7D',
         "gold": '#E2C558',
-        "indigo": '#3F51B5'
     };
 
     var stateColors = {
@@ -24,7 +19,8 @@ function setBackgroundColor(doc, state) {
         career: colors.blue,
         nongvt: colors.gold,
         professional: colors.blue,
-        greek: colors.pink
+        greek: colors.pink,
+        nongreek: colors.gold
     };
 
     doc.body.style.backgroundColor = stateColors[state];
@@ -127,9 +123,17 @@ app.config(['$stateProvider',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
-            }).state('greek', {
+            })
+            .state('greek', {
                 url: '/10',
                 templateUrl: './views/greek.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('nongreek', {
+                url: '/11',
+                templateUrl: './views/nongreek.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

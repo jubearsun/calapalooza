@@ -1,10 +1,11 @@
 <div class="greek page-container" ng-controller="greekCtrl">
     <div class="results-wrapper">
-        <div class="header">Professional Fraternities</div>
+        <div class="header">{{ header }}</div>
         <div class="subheader">There are plenty of professional fraternities at Berkeley to choose from, based on your interests and/or major!  Below are examples of a few.</div>
         <ul class="org-list">
             <li ng-repeat="frat in frats track by $index">
                 <a href="{{ frat.link }}" target="_blank">{{ frat.name }}</a>
+                <div class="description">{{ frat.focus }}</div>
             </li>
         </ul>
     </div>

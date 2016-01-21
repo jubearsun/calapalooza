@@ -74,11 +74,15 @@ body {
             font-size: 22px;
             list-style-type: none;
             li {
-                @include col(1/3, 0, 3);
                 padding: 5px;
                 transition: text-decoration 500ms;
-                &:hover {
-                    text-decoration: underline;
+                .description {
+                    font-size: 18px;
+                }
+                a {
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -175,8 +179,4 @@ body {
             @include undo-vertical-align();
         }
     }
-}
-
-.results-page {
-
 }

@@ -1,56 +1,72 @@
 app.controller('greekCtrl', ['$scope', function($scope) {
+
+    $scope.header = 'Professional Fraternities';
+
     $scope.frats = [
         {
-            name: 'Alpha Chi Sigma (Chemistry)',
-            link: 'http://axs.berkeley.edu/rush/'
+            name: 'Alpha Chi Sigma',
+            link: 'http://axs.berkeley.edu/rush/',
+            focus: 'Chemistry'
         },
         {
-            name: 'Alpha Epsilon Zeta (Multi-Discplinary)',
-            link: 'http://aez.berkeley.edu/mission/'
+            name: 'Alpha Epsilon Zeta',
+            link: 'http://aez.berkeley.edu/mission/',
+            focus: 'Multi-Discplinary'
         },
         {
-            name: 'Alpha Kappa Psi (Business)',
-            link: 'http://www.calakpsi.com/'
+            name: 'Alpha Kappa Psi',
+            link: 'http://www.calakpsi.com/',
+            focus: 'Business'
         },
         {
-            name: 'Alpha Phi Omega (Service)',
-            link: 'http://live.calaphio.com/rush/index.html'
+            name: 'Alpha Phi Omega',
+            link: 'http://live.calaphio.com/rush/index.html',
+            focus: 'Service'
         },
         {
-            name: 'Delta Sigma Pi (Business)',
-            link: 'http://www.dsp-rho.com/'
+            name: 'Delta Sigma Pi',
+            link: 'http://www.dsp-rho.com/',
+            focus: 'Business'
         },
         {
-            name: 'Eta Omega Chi (Entrepreneurship)',
-            link: 'http://www.calhox.org/'
+            name: 'Eta Omega Chi',
+            link: 'http://www.calhox.org/',
+            focus: 'Entrepreneurship'
         },
         {
-            name: 'Kappa Alpha Pi (Pre-Law)',
-            link: 'http://www.kapiucb.com/#!about/cjg9'
+            name: 'Kappa Alpha Pi',
+            link: 'http://www.kapiucb.com/#!about/cjg9',
+            focus: 'Pre-Law'
         },
         {
-            name: 'Phi Alpha Delta (Pre-Law)',
-            link: 'http://www.berkeleypad.org/'
+            name: 'Phi Alpha Delta',
+            link: 'http://www.berkeleypad.org/',
+            focus: 'Pre-Law'
         },
         {
-            name: 'Phi Chi (Pre-Med)',
-            link: 'http://phichi.berkeley.edu/AboutUs.htm'
+            name: 'Phi Chi',
+            link: 'http://phichi.berkeley.edu/AboutUs.htm',
+            focus: 'Pre-Med'
         },
         {
-            name: 'Pi Sigma Epsilon (Sales, Marketing, Management)',
-            link: 'http://berkeleypse.org/'
+            name: 'Pi Sigma Epsilon',
+            link: 'http://berkeleypse.org/',
+            focus: 'Sales, Marketing, Management'
         },
         {
-            name: 'Sigma Eta Pi (Entrepreneurship)',
-            link: 'http://www.ucberkeleysep.com/'
+            name: 'Sigma Eta Pi',
+            link: 'http://www.ucberkeleysep.com/',
+            focus: 'Entrepreneurship'
         },
         {
-            name: 'Sigma Mu Delta (Pre-Med)',
-            link: 'http://www.smdberkeley.com/'
+            name: 'Sigma Mu Delta',
+            link: 'http://www.smdberkeley.com/',
+            focus: 'Pre-Med'
         },
         {
-            name: 'Theta Tau (Engineering)',
-            link: 'http://www.calthetatau.com/'
+            name: 'Theta Tau',
+            link: 'http://www.calthetatau.com/',
+            focus: 'Engineering'
         }
     ];
 }]);

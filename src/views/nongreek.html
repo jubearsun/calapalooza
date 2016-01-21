@@ -1,0 +1,12 @@
+<div class="nongreek page-container" ng-controller="nongreekCtrl">
+    <div class="results-wrapper">
+        <div class="header">{{ header }}</div>
+        <div class="subheader">There are many professional organizations at Berkeley to choose from, based on your interests and/or major!  Below are examples of a few.</div>
+        <ul class="org-list">
+            <li ng-repeat="org in orgs track by $index">
+                <a href="{{ org.link }}" target="_blank">{{ org.name }}</a>
+                <div class="description">{{ org.description }}</div>
+            </li>
+        </ul>
+    </div>
+</div>

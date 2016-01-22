@@ -43,7 +43,7 @@ app.controller('pubCtrl', ['$scope', function($scope) {
         {
             name: 'GA Berkeley Business Law Journal (GA BBLJ)',
             link: 'http://www.baremagazine.org/apply',
-            blurb: 'BBLJ is a Berke­ley Law student-run orga­ni­za­tion that pub­lishes a bian­nual print jour­nal, a blog, and hosts events related to busi­ness law.'
+            blurb: 'BBLJ is the number one commercial law journal in the country and the only student organization at Berkeley Law focused on business law.'
         },
         {
             name: 'The Heuristic Squelch (Squelch)',
@@ -73,7 +73,7 @@ app.controller('pubCtrl', ['$scope', function($scope) {
         {
             name: 'To An Unknown God',
             link: 'https://unknowngodjournal.wordpress.com/',
-            blurb: 'To An Unknown God is UC Berkeley’s first student-run Christian journal.'
+            blurb: 'To An Unknown God is UC Berkeley\’s first student-run Christian journal.'
         }
     ];
 

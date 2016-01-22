@@ -21,7 +21,8 @@ function setBackgroundColor(doc, state) {
         professional: colors.blue,
         greek: colors.pink,
         nongreek: colors.gold,
-        publications: colors.pink
+        publications: colors.pink,
+        asuc: colors.pink
     };
 
     doc.body.style.backgroundColor = stateColors[state];
@@ -143,6 +144,13 @@ app.config(['$stateProvider',
             .state('publications', {
                 url: '/12',
                 templateUrl: './views/publications.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('asuc', {
+                url: '/13',
+                templateUrl: './views/asuc.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

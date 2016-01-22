@@ -1,0 +1,9 @@
+.asuc {
+    .results-wrapper {
+        .subheader {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

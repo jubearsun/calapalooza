@@ -1027,5 +1027,8 @@ body {
       .publications .results-wrapper ul.org-list li:nth-child(1n+1) {
         clear: both; } }
 
+.asuc .results-wrapper .subheader:after {
+  display: none; }
+
 
 /*# sourceMappingURL=style.min.css.map */

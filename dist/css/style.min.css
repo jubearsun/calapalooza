@@ -836,12 +836,10 @@ body {
   .nonactive .questions-wrapper .options-wrapper .else:hover {
     background: #66BB6A; }
 
-.active-arts {
-  background: #d27599; }
-  .active-arts .options-wrapper .yes:hover {
-    background: #1B93C0; }
-  .active-arts .options-wrapper .no:hover {
-    background: #E2C558; }
+.active-arts .options-wrapper .yes:hover {
+  background: #1B93C0; }
+.active-arts .options-wrapper .no:hover {
+  background: #E2C558; }
 
 .sports .questions-wrapper .options-wrapper .club:hover {
   background: #C54F7D; }

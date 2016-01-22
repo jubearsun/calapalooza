@@ -1,5 +1,14 @@
 .nongreek {
     .results-wrapper {
+        .subheader {
+            a {
+                color: darken($grey, 10%);
+                transition: color 250ms;
+                &:hover {
+                    color: $grey;
+                }
+            }
+        }
         .org-list {
             li {
                 @include col(1/2, 0, 2);

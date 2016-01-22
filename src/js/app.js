@@ -20,7 +20,8 @@ function setBackgroundColor(doc, state) {
         nongvt: colors.gold,
         professional: colors.blue,
         greek: colors.pink,
-        nongreek: colors.gold
+        nongreek: colors.gold,
+        publications: colors.pink
     };
 
     doc.body.style.backgroundColor = stateColors[state];
@@ -28,7 +29,8 @@ function setBackgroundColor(doc, state) {
 
 var app = angular.module('calapalooza', [
         'ui.router',
-        'ngTouch'
+        'ngTouch',
+        'ngAnimate'
     ]);
 
 app.run([
@@ -134,6 +136,13 @@ app.config(['$stateProvider',
             .state('nongreek', {
                 url: '/11',
                 templateUrl: './views/nongreek.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('publications', {
+                url: '/12',
+                templateUrl: './views/publications.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

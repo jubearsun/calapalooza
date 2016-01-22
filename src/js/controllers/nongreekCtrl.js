@@ -1,5 +1,8 @@
 app.controller('nongreekCtrl', ['$scope', function($scope) {
+
     $scope.header = 'Professional Organizations';
+
+    $scope.subheader = 'There are tons of professional organizations at Berkeley to choose from, based on your interests and/or major!  You can bet that you will be interested in at least one of these clubs.';
 
     $scope.orgs = [
         {

@@ -715,6 +715,30 @@ body {
             -ms-transform: translateY(0);
                 transform: translateY(0); } }
 
+.fade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 1; }
+
+.fade.ng-animate {
+  -webkit-transition: all .4s ease;
+  transition: all 0.4s ease; }
+
+.fade.ng-enter {
+  opacity: 0; }
+
+.fade.ng-enter-active {
+  opacity: 1; }
+
+.fade.ng-leave {
+  opacity: 1; }
+
+.fade.ng-leave-active {
+  opacity: 0; }
+
 .home-page {
   background: #1B93C0;
   color: #EBEBEB; }
@@ -905,6 +929,12 @@ body {
       .greek .results-wrapper ul.org-list li:nth-child(1n+1) {
         clear: both; } }
 
+.nongreek .results-wrapper .subheader a {
+  color: #a4a4a4;
+  -webkit-transition: color 250ms;
+          transition: color 250ms; }
+  .nongreek .results-wrapper .subheader a:hover {
+    color: #BDBDBD; }
 .nongreek .results-wrapper .org-list li {
   *zoom: 1;
   float: left;

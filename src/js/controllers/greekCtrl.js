@@ -2,6 +2,8 @@ app.controller('greekCtrl', ['$scope', function($scope) {
 
     $scope.header = 'Professional Fraternities';
 
+    $scope.subheader = 'There are plenty of professional fraternities at Berkeley to choose from, based on your interests and/or major!  Below are examples of a few.';
+
     $scope.frats = [
         {
             name: 'Alpha Chi Sigma',

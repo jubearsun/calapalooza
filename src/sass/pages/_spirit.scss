@@ -1,0 +1,9 @@
+.spirit {
+    .results-wrapper {
+        .subheader {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

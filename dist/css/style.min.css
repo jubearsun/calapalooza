@@ -724,8 +724,8 @@ body {
   opacity: 1; }
 
 .fade.ng-animate {
-  -webkit-transition: all .4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear; }
 
 .fade.ng-enter {
   opacity: 0; }
@@ -982,6 +982,49 @@ body {
         margin-right: 0%;
         float: right; }
       .nongreek .results-wrapper .org-list li:nth-child(1n+1) {
+        clear: both; } }
+
+.publications .results-wrapper ul.org-list li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .publications .results-wrapper ul.org-list li:before, .publications .results-wrapper ul.org-list li:after {
+    content: '';
+    display: table; }
+  .publications .results-wrapper ul.org-list li:after {
+    clear: both; }
+  .publications .results-wrapper ul.org-list li:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .publications .results-wrapper ul.org-list li:nth-child(2n+1) {
+    clear: both; }
+  @media (max-width: 900px) {
+    .publications .results-wrapper ul.org-list li {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .publications .results-wrapper ul.org-list li:before, .publications .results-wrapper ul.org-list li:after {
+        content: '';
+        display: table; }
+      .publications .results-wrapper ul.org-list li:after {
+        clear: both; }
+      .publications .results-wrapper ul.org-list li:nth-child(2n) {
+        margin-right: 3%;
+        float: left; }
+      .publications .results-wrapper ul.org-list li:nth-child(2n+1) {
+        clear: none; }
+      .publications .results-wrapper ul.org-list li:nth-child(1n) {
+        margin-right: 0%;
+        float: right; }
+      .publications .results-wrapper ul.org-list li:nth-child(1n+1) {
         clear: both; } }
 
 

@@ -33,7 +33,7 @@ body {
         text-decoration: none;
         transition: color 250ms;
         &:hover {
-            color: darken($grey, 10%);
+            color: darken($grey, 15%);
         }
     }
     .results-wrapper {

@@ -1,11 +1,12 @@
 .nongreek {
     .results-wrapper {
+        color: #fff;
         .subheader {
             a {
-                color: darken($grey, 10%);
+                color: $blue-grey;
                 transition: color 250ms;
                 &:hover {
-                    color: $grey;
+                    color: darken($blue-grey, 10%);
                 }
             }
         }
@@ -13,10 +14,10 @@
             li {
                 @include col(1/2, 0, 2);
                 a {
-                    color: darken($grey, 10%);
+                    color: $blue-grey;
                     transition: color 250ms;
                     &:hover {
-                        color: $grey;
+                        color: darken($blue-grey, 10%);
                     }
                 }
                 @media (max-width: 900px) {

@@ -59,7 +59,7 @@ app.controller('sportsCtrl', ['$scope', function($scope) {
             description: 'Logging Sports is the only sustinable logging sports team on the west coast and teaches team members in old-time logging techniques, such as chopping and crosscut sawing, and networks team members with professionals in the forestry or related fields.'
         },
         {
-            name: 'Quiddicth League at Berkeley (QL)',
+            name: 'Quidditch League at Berkeley (QL)',
             link: 'http://quidditchleagueatberkeley.webs.com/',
             description: 'Our club competes in the fast-growing, full contact, and co-ed sport known as Quidditch. With regional, national, and international competition, players get the exclusive opportunity to travel, develop leadership skills, and compete all over the world.'
         },

@@ -1,12 +1,13 @@
 .dance {
     a {
-        color: darken($grey, 10%);
+        color: $blue-grey;
         transition: color 250ms;
         &:hover {
-            color: $grey;
+            color: darken($blue-grey, 10%);
         }
     }
     .results-wrapper {
+        color: #fff;
         ul.org-list {
             li {
                 @include col(1/2, 0, 2);

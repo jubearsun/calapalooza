@@ -169,7 +169,7 @@ app.config(['$stateProvider',
                 }
             })
             .state('dance', {
-                url: '/',
+                url: '/5',
                 templateUrl: './views/dance.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'

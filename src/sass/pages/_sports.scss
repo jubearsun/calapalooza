@@ -1,9 +1,9 @@
 .sports {
     a {
-        color: $blue-grey;
+        color: darken($blue-grey, 15%);
         transition: color 250ms;
         &:hover {
-            color: darken($blue-grey, 10%);
+            color: $blue-grey;
         }
     }
     .results-wrapper {

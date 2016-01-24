@@ -5,5 +5,13 @@
                 display: none;
             }
         }
+        .org-list {
+            li {
+                @include col(1/2, 0, 2);
+                @media (max-width: 910px) {
+                    @include col(1, 0, 1, 2);
+                }
+            }
+        }
     }
 }

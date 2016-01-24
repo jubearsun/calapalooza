@@ -1,0 +1,19 @@
+.dance {
+    a {
+        color: darken($grey, 10%);
+        transition: color 250ms;
+        &:hover {
+            color: $grey;
+        }
+    }
+    .results-wrapper {
+        ul.org-list {
+            li {
+                @include col(1/2, 0, 2);
+                @media (max-width: 940px) {
+                    @include col(1, 0, 1, 2);
+                }
+            }
+        }
+    }
+}

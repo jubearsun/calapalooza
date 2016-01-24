@@ -23,7 +23,8 @@ function setBackgroundColor(doc, state) {
         nongreek: colors.gold,
         publications: colors.pink,
         asuc: colors.pink,
-        spirit: colors.blue
+        spirit: colors.blue,
+        dance: colors.gold
     };
 
     doc.body.style.backgroundColor = stateColors[state];
@@ -159,6 +160,13 @@ app.config(['$stateProvider',
             .state('spirit', {
                 url: '/14',
                 templateUrl: './views/spirit.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('dance', {
+                url: '/15',
+                templateUrl: './views/dance.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

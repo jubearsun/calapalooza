@@ -1,4 +1,7 @@
-app.controller('nongreekCtrl', ['$scope', function($scope) {
+app.controller('nongreekCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Professional Organizations';
 

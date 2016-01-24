@@ -1,6 +1,6 @@
 // Helper Functions
 
-function setBackgroundColor(doc, state) {
+function setBackgroundColor(doc, state, rootScope) {
     var colors = {
         "blue": '#1B93C0',
         "green": '#66BB6A',
@@ -32,6 +32,7 @@ function setBackgroundColor(doc, state) {
     };
 
     doc.body.style.backgroundColor = stateColors[state];
+    rootScope.buttonColor = stateColors[state];
 }
 
 var app = angular.module('calapalooza', [
@@ -50,7 +51,7 @@ app.run([
         $rootScope.$stateParams = $stateParams;
 
         $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams) {
-            setBackgroundColor($document[0], toState.name);
+            setBackgroundColor($document[0], toState.name, $rootScope);
         });
     }
 ]);

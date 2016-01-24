@@ -1,9 +1,16 @@
-<div class="sports page-container">
-    <div class="questions-wrapper">
-        <div class="header two">how competitive are you?</div>
-        <div class="options-wrapper two-options">
-            <button class="option club">club (more)</button>
-            <button class="option intramural">intramural (less)</button>
+<div class="sports page-container" ng-controller="sportsCtrl">
+    <div class="results-wrapper">
+        <div class="header">{{ header }}</div>
+         <div class="subheader">
+            <br>If you are looking to play a sport in college, you can look into <a href="http://recsports.berkeley.edu/sports/intramural-sports/" target="_blank">signing up for an intramural team</a> or <a href="http://recsports.berkeley.edu/sports/sport-clubs/" target="_blank">registering for a club sport</a>.  Below are also a list of a few other sports teams/clubs you can join at Berkeley.
+            <br>
+            <br>Didn't find what you were looking for?  <a href="" ui-sref="home">Click here to play again!</a>
         </div>
+         <ul class="org-list">
+             <li ng-repeat="sport in sports track by $index">
+                <a href="{{ sport.link }}" target="_blank">{{ sport.name }}</a>
+                <div class="description">{{ sport.description }}</div>
+             </li>
+         </ul>
     </div>
 </div>

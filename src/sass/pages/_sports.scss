@@ -1,16 +1,10 @@
 .sports {
-    .questions-wrapper {
-        .options-wrapper {
-            .club {
-                &:hover {
-                    background: $pink;
-                }
-            }
-            .intramural {
-                &:hover {
-                    background: $blue;
-                }
-            }
+    a {
+        color: darken($grey, 10%);
+        transition: color 250ms;
+        &:hover {
+            color: $grey;
         }
     }
+
 }

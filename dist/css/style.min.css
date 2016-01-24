@@ -841,10 +841,12 @@ body {
 .active-arts .options-wrapper .no:hover {
   background: #E2C558; }
 
-.sports .questions-wrapper .options-wrapper .club:hover {
-  background: #C54F7D; }
-.sports .questions-wrapper .options-wrapper .intramural:hover {
-  background: #1B93C0; }
+.sports a {
+  color: #a4a4a4;
+  -webkit-transition: color 250ms;
+          transition: color 250ms; }
+  .sports a:hover {
+    color: #BDBDBD; }
 
 .nongvt {
   background: #E2C558; }

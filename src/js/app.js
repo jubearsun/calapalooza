@@ -24,7 +24,8 @@ function setBackgroundColor(doc, state) {
         publications: colors.pink,
         asuc: colors.pink,
         spirit: colors.blue,
-        dance: colors.gold
+        dance: colors.gold,
+        clubsports: colors.pink
     };
 
     doc.body.style.backgroundColor = stateColors[state];

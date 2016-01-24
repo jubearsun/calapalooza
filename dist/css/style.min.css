@@ -845,11 +845,11 @@ body {
   background: #E2C558; }
 
 .sports a {
-  color: #41545e;
+  color: #607D8B;
   -webkit-transition: color 250ms;
           transition: color 250ms; }
   .sports a:hover {
-    color: #607D8B; }
+    color: #4b626d; }
 .sports .results-wrapper {
   color: #fff; }
   .sports .results-wrapper ul.org-list li {

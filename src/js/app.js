@@ -25,7 +25,10 @@ function setBackgroundColor(doc, state) {
         asuc: colors.pink,
         spirit: colors.blue,
         dance: colors.gold,
-        clubsports: colors.pink
+        clubsports: colors.pink,
+        perform: colors.gold,
+        visual: colors.blue,
+        volunteer: colors.green
     };
 
     doc.body.style.backgroundColor = stateColors[state];
@@ -168,6 +171,27 @@ app.config(['$stateProvider',
             .state('dance', {
                 url: '/15',
                 templateUrl: './views/dance.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('perform', {
+                url: '/16',
+                templateUrl: './views/perform.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('visual', {
+                url: '/17',
+                templateUrl: './views/visual.html',
+                data: {
+                    pageTitle: 'Calapalooza Roadmap'
+                }
+            })
+            .state('volunteer', {
+                url: '/18',
+                templateUrl: './views/volunteer.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }

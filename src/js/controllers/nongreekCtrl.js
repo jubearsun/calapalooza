@@ -81,11 +81,6 @@ app.controller('nongreekCtrl', ['$scope', function($scope) {
             description: 'A UC Berkeley student-run professional marketing advisory group that provides creative solutions to local businesses’ marketing needs.'
         },
         {
-            name: 'Design For America',
-            link: 'http://dfa.berkeley.edu/',
-            description: 'Design For America teaches human centered design, collaborating community partners and implements innovative solutions based on insights into human needs.'
-        },
-        {
             name: 'Free Ventures',
             link: 'http://www.freeventures.org/',
             description: 'Free Ventures provides Cal students with resources to ameliorate the process of developing a startup.'

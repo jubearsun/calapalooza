@@ -481,7 +481,8 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none; }
+          user-select: none;
+  overflow-y: scroll; }
 
 .page-container {
   height: 100%;
@@ -847,6 +848,48 @@ body {
           transition: color 250ms; }
   .sports a:hover {
     color: #BDBDBD; }
+.sports .results-wrapper ul.org-list li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .sports .results-wrapper ul.org-list li:before, .sports .results-wrapper ul.org-list li:after {
+    content: '';
+    display: table; }
+  .sports .results-wrapper ul.org-list li:after {
+    clear: both; }
+  .sports .results-wrapper ul.org-list li:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .sports .results-wrapper ul.org-list li:nth-child(2n+1) {
+    clear: both; }
+  @media (max-width: 940px) {
+    .sports .results-wrapper ul.org-list li {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .sports .results-wrapper ul.org-list li:before, .sports .results-wrapper ul.org-list li:after {
+        content: '';
+        display: table; }
+      .sports .results-wrapper ul.org-list li:after {
+        clear: both; }
+      .sports .results-wrapper ul.org-list li:nth-child(2n) {
+        margin-right: 3%;
+        float: left; }
+      .sports .results-wrapper ul.org-list li:nth-child(2n+1) {
+        clear: none; }
+      .sports .results-wrapper ul.org-list li:nth-child(1n) {
+        margin-right: 0%;
+        float: right; }
+      .sports .results-wrapper ul.org-list li:nth-child(1n+1) {
+        clear: both; } }
 
 .nongvt {
   background: #E2C558; }
@@ -1122,6 +1165,141 @@ body {
         margin-right: 0%;
         float: right; }
       .dance .results-wrapper ul.org-list li:nth-child(1n+1) {
+        clear: both; } }
+
+.perform a {
+  color: #a4a4a4;
+  -webkit-transition: color 250ms;
+          transition: color 250ms; }
+  .perform a:hover {
+    color: #BDBDBD; }
+.perform .results-wrapper .org-list li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .perform .results-wrapper .org-list li:before, .perform .results-wrapper .org-list li:after {
+    content: '';
+    display: table; }
+  .perform .results-wrapper .org-list li:after {
+    clear: both; }
+  .perform .results-wrapper .org-list li:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .perform .results-wrapper .org-list li:nth-child(2n+1) {
+    clear: both; }
+  @media (max-width: 1040px) {
+    .perform .results-wrapper .org-list li {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .perform .results-wrapper .org-list li:before, .perform .results-wrapper .org-list li:after {
+        content: '';
+        display: table; }
+      .perform .results-wrapper .org-list li:after {
+        clear: both; }
+      .perform .results-wrapper .org-list li:nth-child(2n) {
+        margin-right: 3%;
+        float: left; }
+      .perform .results-wrapper .org-list li:nth-child(2n+1) {
+        clear: none; }
+      .perform .results-wrapper .org-list li:nth-child(1n) {
+        margin-right: 0%;
+        float: right; }
+      .perform .results-wrapper .org-list li:nth-child(1n+1) {
+        clear: both; } }
+
+.visual .results-wrapper ul.org-list li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .visual .results-wrapper ul.org-list li:before, .visual .results-wrapper ul.org-list li:after {
+    content: '';
+    display: table; }
+  .visual .results-wrapper ul.org-list li:after {
+    clear: both; }
+  .visual .results-wrapper ul.org-list li:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .visual .results-wrapper ul.org-list li:nth-child(2n+1) {
+    clear: both; }
+  @media (max-width: 1080px) {
+    .visual .results-wrapper ul.org-list li {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .visual .results-wrapper ul.org-list li:before, .visual .results-wrapper ul.org-list li:after {
+        content: '';
+        display: table; }
+      .visual .results-wrapper ul.org-list li:after {
+        clear: both; }
+      .visual .results-wrapper ul.org-list li:nth-child(2n) {
+        margin-right: 3%;
+        float: left; }
+      .visual .results-wrapper ul.org-list li:nth-child(2n+1) {
+        clear: none; }
+      .visual .results-wrapper ul.org-list li:nth-child(1n) {
+        margin-right: 0%;
+        float: right; }
+      .visual .results-wrapper ul.org-list li:nth-child(1n+1) {
+        clear: both; } }
+
+.volunteer .results-wrapper ul.org-list li {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .volunteer .results-wrapper ul.org-list li:before, .volunteer .results-wrapper ul.org-list li:after {
+    content: '';
+    display: table; }
+  .volunteer .results-wrapper ul.org-list li:after {
+    clear: both; }
+  .volunteer .results-wrapper ul.org-list li:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .volunteer .results-wrapper ul.org-list li:nth-child(2n+1) {
+    clear: both; }
+  @media (max-width: 1040px) {
+    .volunteer .results-wrapper ul.org-list li {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .volunteer .results-wrapper ul.org-list li:before, .volunteer .results-wrapper ul.org-list li:after {
+        content: '';
+        display: table; }
+      .volunteer .results-wrapper ul.org-list li:after {
+        clear: both; }
+      .volunteer .results-wrapper ul.org-list li:nth-child(2n) {
+        margin-right: 3%;
+        float: left; }
+      .volunteer .results-wrapper ul.org-list li:nth-child(2n+1) {
+        clear: none; }
+      .volunteer .results-wrapper ul.org-list li:nth-child(1n) {
+        margin-right: 0%;
+        float: right; }
+      .volunteer .results-wrapper ul.org-list li:nth-child(1n+1) {
         clear: both; } }
 
 

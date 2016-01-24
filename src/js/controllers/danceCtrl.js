@@ -81,6 +81,11 @@ app.controller('danceCtrl', ['$scope', function($scope) {
             blurb: 'Main Stacks Dance Team aims to promote growth of dancers and choreographers in the Berkeley community through performances, workshops, and competitions.'
         },
         {
+            name: 'Natya at Berkeley',
+            link: 'https://www.facebook.com/natyaatberkeley/',
+            blurb: 'Natya at Berkeley is the Bharatanatyam team at UC Berkeley. We aim to cultivate artistic talent and cultural awareness by performing locally and at nation-wide intercollegiate competitions.'
+        },
+        {
             name: 'Salsa Dance at Cal',
             link: 'https://www.facebook.com/SalsaAtCalBerkeley/',
             blurb: 'Salsa Dance at Cal, formerly the Social Ballroom Club, is a group of Cal students who want to spread their appreciation of Salsa and other ballroom/nightclub dances. We host a number of dance events, trips to local clubs, and FREE classes in Salsa and other styles.'
@@ -109,6 +114,21 @@ app.controller('danceCtrl', ['$scope', function($scope) {
             name: 'Zahanat',
             link: 'https://www.facebook.com/ucbzahanat/',
             blurb: 'Zahanat was founded at University of California, Berkeley in the fall of 2009 as a competitive all-male dance team. We aim not only to win competitions, but more importantly, to be the best team we can both to each other and for the audience.'
+        },
+        {
+            name: 'Ra-On (RO)',
+            link: 'https://www.facebook.com/RaOn.Cal/',
+            blurb: 'The Korean Rock Band sponsored by ASUC in UC Berkeley.'
+        },
+        {
+            name: 'T.I.n.Y Chinese Drama and Entertainment Company (TINY)',
+            link: 'https://www.facebook.com/tiny.berkeley/',
+            blurb: 'Non-profit and non-political student organization. Produce Chinese dramas, short films and Chinese songs. Provide customized event-organizing service. Donate a large part of revenues to charity.'
+        },
+        {
+            name: 'TBD Comedy (TBD)',
+            link: 'https://www.facebook.com/tbdcomedy/',
+            blurb: 'TBD Comedy is an undergraduate comedy troupe at U.C. Berkeley. We perform longform and shortform improv -- check out one of our upcoming shows!'
         }
     ];
 

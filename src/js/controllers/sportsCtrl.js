@@ -1,4 +1,8 @@
-app.controller('sportsCtrl', ['$scope', function($scope) {
+app.controller('sportsCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Recreational Sports/Activities';
 

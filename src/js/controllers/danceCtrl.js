@@ -1,4 +1,8 @@
-app.controller('danceCtrl', ['$scope', function($scope) {
+app.controller('danceCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Dance Teams';
 

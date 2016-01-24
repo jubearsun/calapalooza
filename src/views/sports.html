@@ -3,8 +3,9 @@
         <div class="header">{{ header }}</div>
          <div class="subheader">
             <br>If you are looking to play a sport in college, you can look into <a href="http://recsports.berkeley.edu/sports/intramural-sports/" target="_blank">signing up for an intramural team</a> or <a href="http://recsports.berkeley.edu/sports/sport-clubs/" target="_blank">registering for a club sport</a>.  Below are also a list of a few other recreational clubs you can join at Berkeley.
-            <br>
-            <br>Didn't find what you were looking for?  <a href="" ui-sref="home">Click here to play again!</a>
+        </div>
+        <div class="button-wrapper">
+            <button class="back" ui-sref="home" ng-style="buttonColor">play again</button>
         </div>
          <ul class="org-list">
              <li ng-repeat="sport in sports track by $index">

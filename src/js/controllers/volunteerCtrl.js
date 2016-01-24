@@ -1,4 +1,8 @@
-app.controller('volunteerCtrl', ['$scope', function($scope) {
+app.controller('volunteerCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Volunteering';
 

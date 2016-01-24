@@ -522,7 +522,7 @@ body {
         .page-container .results-wrapper .subheader {
           font-size: 18px; } }
       .page-container .results-wrapper .subheader:after {
-        margin: 10px 0 30px 0;
+        margin: 10px 0;
         display: block;
         font-size: 16px;
         text-align: left;

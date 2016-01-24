@@ -1,7 +1,10 @@
 <div class="spirit page-container" ng-controller="spiritCtrl">
     <div class="results-wrapper">
         <div class="header">{{ header }}</div>
-        <div class="subheader">{{ subheader }}  Didn't find what you were looking for?  <a href="" ui-sref="home">Click here to play again!</a></div>
+        <div class="subheader">{{ subheader }}</div>
+        <div class="button-wrapper">
+            <button class="back" ui-sref="home" ng-style="buttonColor">play again</button>
+        </div>
         <ul class="org-list">
             <li ng-repeat="team in teams track by $index">
                 <a href="{{ team.link }}" target="_blank">{{ team.name }}</a>

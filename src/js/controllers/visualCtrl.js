@@ -1,4 +1,8 @@
-app.controller('visualCtrl', ['$scope', function($scope) {
+app.controller('visualCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Design and Arts Clubs';
 

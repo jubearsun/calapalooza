@@ -1,4 +1,8 @@
-app.controller('spiritCtrl', ['$scope', function($scope) {
+app.controller('spiritCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Cal Spirit Groups';
 

@@ -1,4 +1,8 @@
-app.controller('greekCtrl', ['$scope', function($scope) {
+app.controller('greekCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Professional Fraternities';
 

@@ -1,4 +1,8 @@
-app.controller('pubCtrl', ['$scope', function($scope) {
+app.controller('pubCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Student Publications';
 

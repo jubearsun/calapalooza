@@ -1,4 +1,8 @@
-app.controller('performCtrl', ['$scope', function($scope) {
+app.controller('performCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+
+    $scope.buttonColor = {
+        color: $rootScope.buttonColor
+    };
 
     $scope.header = 'Theater and Music Groups';
 

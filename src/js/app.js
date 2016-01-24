@@ -71,126 +71,126 @@ app.config(['$stateProvider',
                 }
             })
             .state('start', {
-                url: '/1',
+                url: '/',
                 templateUrl: './views/start.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 },
             })
             .state('hobby', {
-                url: '/2',
+                url: '/',
                 templateUrl: './views/hobby.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('active', {
-                url: '/3',
+                url: '/',
                 templateUrl: './views/active.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('nonactive', {
-                url: '/4',
+                url: '/',
                 templateUrl: './views/nonactive.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('activearts', {
-                url: '/5',
+                url: '/',
                 templateUrl: './views/activearts.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('sports', {
-                url: '/6',
+                url: '/',
                 templateUrl: './views/sports.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('career', {
-                url: '/7',
+                url: '/',
                 templateUrl: './views/career.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('nongvt', {
-                url: '/8',
+                url: '/',
                 templateUrl: './views/nongvt.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('professional', {
-                url: '/9',
+                url: '/',
                 templateUrl: './views/professional.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('greek', {
-                url: '/10',
+                url: '/',
                 templateUrl: './views/greek.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('nongreek', {
-                url: '/11',
+                url: '/',
                 templateUrl: './views/nongreek.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('publications', {
-                url: '/12',
+                url: '/',
                 templateUrl: './views/publications.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('asuc', {
-                url: '/13',
+                url: '/',
                 templateUrl: './views/asuc.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('spirit', {
-                url: '/14',
+                url: '/',
                 templateUrl: './views/spirit.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('dance', {
-                url: '/15',
+                url: '/',
                 templateUrl: './views/dance.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('perform', {
-                url: '/16',
+                url: '/',
                 templateUrl: './views/perform.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('visual', {
-                url: '/17',
+                url: '/',
                 templateUrl: './views/visual.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('volunteer', {
-                url: '/18',
+                url: '/',
                 templateUrl: './views/volunteer.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'

@@ -495,6 +495,8 @@ body {
             transition: color 250ms; }
     .page-container a:hover {
       color: #979797; }
+  .page-container button {
+    text-transform: uppercase; }
   .page-container .results-wrapper {
     padding: 20px; }
     .page-container .results-wrapper .header {
@@ -672,7 +674,7 @@ body {
             float: right; }
           .page-container .questions-wrapper .options-wrapper.three-options .option:nth-child(3n+1) {
             clear: both; }
-          @media (max-width: 1025px) {
+          @media (max-width: 1250px) {
             .page-container .questions-wrapper .options-wrapper.three-options .option {
               *zoom: 1;
               float: left;

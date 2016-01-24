@@ -106,7 +106,7 @@ app.config(['$stateProvider',
                 }
             })
             .state('sports', {
-                url: '/1',
+                url: '/',
                 templateUrl: './views/sports.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
@@ -169,14 +169,14 @@ app.config(['$stateProvider',
                 }
             })
             .state('dance', {
-                url: '/5',
+                url: '/',
                 templateUrl: './views/dance.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
                 }
             })
             .state('perform', {
-                url: '/3',
+                url: '/',
                 templateUrl: './views/perform.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'
@@ -190,7 +190,7 @@ app.config(['$stateProvider',
                 }
             })
             .state('volunteer', {
-                url: '/v',
+                url: '/',
                 templateUrl: './views/volunteer.html',
                 data: {
                     pageTitle: 'Calapalooza Roadmap'

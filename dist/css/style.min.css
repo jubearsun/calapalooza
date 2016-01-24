@@ -1269,6 +1269,12 @@ body {
       .visual .results-wrapper ul.org-list li:nth-child(1n+1) {
         clear: both; } }
 
+.volunteer a {
+  color: #607D8B;
+  -webkit-transition: color 250ms;
+          transition: color 250ms; }
+  .volunteer a:hover {
+    color: #4b626d; }
 .volunteer .results-wrapper ul.org-list li {
   *zoom: 1;
   float: left;

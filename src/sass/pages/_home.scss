@@ -2,6 +2,7 @@
     background: $blue;
     color: $white;
     .content-wrapper {
+        padding: 5px;
         @include vertical-align();
         text-align: center;
         .title {

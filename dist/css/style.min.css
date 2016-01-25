@@ -767,6 +767,7 @@ body {
   background: #1B93C0;
   color: #EBEBEB; }
   .home-page .content-wrapper {
+    padding: 5px;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);

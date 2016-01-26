@@ -772,8 +772,7 @@ body {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    text-align: center;
-    padding: 2px; }
+    text-align: center; }
     .home-page .content-wrapper .logo {
       background: url('../assets/img/logo/white-logo.png') no-repeat center center;
       height: 150px;

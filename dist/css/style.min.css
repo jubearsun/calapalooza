@@ -775,7 +775,8 @@ body {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    text-align: center; }
+    text-align: center;
+    padding: 2px; }
     .home-page .content-wrapper .logo {
       background: url('../assets/img/logo/white-logo.png') no-repeat center center;
       height: 150px;
@@ -833,9 +834,10 @@ body {
     .home-page .content-wrapper .disclaimer {
       font-size: 14px;
       line-height: 23px; }
-      @media (max-width: 320px) {
+      @media (max-width: 400px) {
         .home-page .content-wrapper .disclaimer {
-          font-size: 11px; } }
+          font-size: 10px;
+          line-height: 15px; } }
 
 .career {
   background: #1B93C0; }

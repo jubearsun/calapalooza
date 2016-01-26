@@ -4,6 +4,7 @@
     .content-wrapper {
         @include vertical-align();
         text-align: center;
+        padding: 2px;
         .logo {
             background: url('../assets/img/logo/white-logo.png') no-repeat center center;
             height: 150px;
@@ -65,8 +66,9 @@
         .disclaimer {
             font-size: 14px;
             line-height: 23px;
-            @media (max-width: 320px) {
-                font-size: 11px;
+            @media (max-width: 400px) {
+                font-size: 10px;
+                line-height: 15px;
             }
         }
     }

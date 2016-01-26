@@ -70,9 +70,9 @@ app.controller('danceCtrl', ['$scope', '$rootScope', function($scope, $rootScope
             blurb: 'Identity X is a UC Berkeley competitive dance team created in Fall 2013 by Victor Diniz and Shusaku Matsuda.'
         },
         {
-            name: 'Korean Perforamnce Group',
+            name: 'Korean Performance Group',
             link: 'https://www.facebook.com/KPGcal',
-            blurb: 'The “Korean Performance Group”, KPG, is a social K-pop dance/performance group founded by Andy Jongwon Kim and JM Lee. t is currently the only permanent dance group that represents K-Pop culture in UC Berkeley.'
+            blurb: 'The “Korean Performance Group”, KPG, is a social K-pop dance/performance group founded by Andy Jongwon Kim and JM Lee. It is currently the only permanent dance group that represents K-Pop culture in UC Berkeley.'
         },
         {
             name: 'Lindy On Sproul',

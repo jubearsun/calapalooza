@@ -12,7 +12,7 @@ app.controller('spiritCtrl', ['$scope', '$rootScope', function($scope, $rootScop
         {
             name: 'Cal Cheerleading',
             link: 'http://calspirit.berkeley.edu/cheer/',
-            description: 'Cal Cheerleading is a group of men and women who support Cal athletics through traditional collegiate cheerleading'
+            description: 'Cal Cheerleading is a group of men and women who support Cal athletics through traditional collegiate cheerleading.'
         },
         {
             name: 'Cal Dance Team',

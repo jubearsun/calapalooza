@@ -833,10 +833,16 @@ body {
           .home-page .content-wrapper .button-wrapper .start {
             width: 30%; } }
     .home-page .content-wrapper .disclaimer {
+      width: 55%;
+      margin: 0 auto;
       font-size: 14px;
       line-height: 23px; }
-      @media (max-width: 400px) {
+      @media (max-width: 950px) {
         .home-page .content-wrapper .disclaimer {
+          width: 70%; } }
+      @media (max-width: 695px) {
+        .home-page .content-wrapper .disclaimer {
+          width: 80%;
           font-size: 10px;
           line-height: 15px; } }
 

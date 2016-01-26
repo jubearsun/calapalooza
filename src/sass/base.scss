@@ -40,7 +40,7 @@ body {
         text-transform: uppercase;
     }
     .results-wrapper {
-        padding: 20px;
+        padding: 25px;
         .header {
             text-align: center;
             font-size: 48px;
@@ -100,7 +100,7 @@ body {
             font-size: 22px;
             list-style-type: none;
             li {
-                padding: 5px;
+                padding: 10px;
                 transition: text-decoration 500ms;
                 .description {
                     font-size: 18px;
@@ -111,6 +111,9 @@ body {
                     }
                 }
             }
+        }
+        @media (max-width: 720px) {
+            padding: 15px;
         }
     }
     .questions-wrapper {

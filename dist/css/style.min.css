@@ -498,7 +498,7 @@ body {
   .page-container button {
     text-transform: uppercase; }
   .page-container .results-wrapper {
-    padding: 20px; }
+    padding: 25px; }
     .page-container .results-wrapper .header {
       text-align: center;
       font-size: 48px;
@@ -558,13 +558,16 @@ body {
       .page-container .results-wrapper .org-list:after {
         clear: both; }
       .page-container .results-wrapper .org-list li {
-        padding: 5px;
+        padding: 10px;
         -webkit-transition: text-decoration 500ms;
                 transition: text-decoration 500ms; }
         .page-container .results-wrapper .org-list li .description {
           font-size: 18px; }
         .page-container .results-wrapper .org-list li a:hover {
           text-decoration: underline; }
+    @media (max-width: 720px) {
+      .page-container .results-wrapper {
+        padding: 15px; } }
   .page-container .questions-wrapper {
     position: relative;
     top: 50%;

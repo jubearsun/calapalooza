@@ -4,6 +4,7 @@
     .content-wrapper {
         @include vertical-align();
         text-align: center;
+        padding: 2px;
         .logo {
             background: url('../assets/img/logo/white-logo.png') no-repeat center center;
             height: 150px;
